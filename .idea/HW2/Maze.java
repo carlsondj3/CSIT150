@@ -4,7 +4,6 @@
 import java.io.*;
 import java.util.*;
 
-
 public class Maze {
 
     private int rows = 0;

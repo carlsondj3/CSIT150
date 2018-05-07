@@ -3,13 +3,23 @@
  */
 public class Robot {
 
-
-    public Robot(Maze maze){
-
+    public Robot(){
+        int currentCol = 0;
+        int currentRow = 0;
     }
 
 
-    public class RandomRobots extends Robot(Maze maze){
+    public Robot(Maze maze){
+        int currentCol = maze.getStartCol();
+        int currentRow = maze.getStartRow();
+    }
+
+
+    public class RandomRobots extends Robot{
+
+    }
+
+    public class RightHandRobot extends Robot{
 
     }
 

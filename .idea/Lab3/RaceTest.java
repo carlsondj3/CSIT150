@@ -2,6 +2,8 @@
  * RaceTest the Race class
  *
  * As you build the race class, uncomment more and more of the test code.
+ * Written By Sherri Harms
+ * Adapted By David Carlson 2018
  */
 public class RaceTest {
 
@@ -9,7 +11,7 @@ public class RaceTest {
 
         Car sherriCar = new Car("Sherri", 85);
         Car labPartnerCar = new Car("Lab Partner", 100);
-        Car yourCar = new Car("Your name", 100);
+        Car yourCar = new Car("Willem Dafoe", 100);
 
 
             Race race = new Race();

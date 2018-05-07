@@ -1,0 +1,21 @@
+
+ArrayLists::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+list.size() - Returns the number of items in this array list
+list.add(data) - Add the data to the end of this array list; The data can be of a primitive type,
+since it will be automatically boxed.
+
+list.add(int index, data) - Add the data to the specified position
+list.set(int index, data) - Replace the data that was originally at position index
+list.get(int index) - Return the data at position index. You need to cast it to the proper data type, if
+you do not use ArrayList<type>.
+
+Loop:
+for (int i=0; i<list.size(); i++)
+{
+handle list.get(i);
+// “handle” means that you need to specify the datatype, then process the data
+}
+
+for (type d : list){
+handle d;
+}

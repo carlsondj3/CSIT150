@@ -32,6 +32,9 @@ public class Car {
         count++;
     }
 
+    /**
+     * displays total car count
+     */
     public void displayCount() {
         System.out.println(count);
     }
@@ -124,6 +127,9 @@ public class Car {
         return carValue;
     }
 
+    /**
+     * @return a copy of the original car
+     */
     public Car makeCopyCar(){
         int MaxSpeed = getMaxSpeed();
         String newOwner = getOwner();
@@ -131,18 +137,32 @@ public class Car {
         return copyCar;
     }
 
+    /**
+     * sets a new owner for a pre-existing car
+     * @param newOwner
+     */
     public void setOwner(String newOwner){
         owner=newOwner;
     }
 
+    /**
+     * sets a new max speed for a pre-existing car
+     * @param newSpeed
+     */
     public void setMaxSpeed(int newSpeed){
         maxSpeed =newSpeed;
     }
 
+    /**
+     * resets the speed of the car to 0
+     */
     public void resetCurrentSpeed(){
         currentSpeed =0;
     }
 
+    /**
+     * resets the total distance traveled by the car to 0
+     */
     public void resetDistance() {
         distanceTraveled = 0;
     }

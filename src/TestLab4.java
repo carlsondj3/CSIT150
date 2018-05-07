@@ -1,5 +1,3 @@
-package lab4;
-
 /**
  * Test the Faculty, Employee classes and Rules interface
  *
