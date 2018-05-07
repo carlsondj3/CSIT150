@@ -1,4 +1,3 @@
-package Lab5;
 import javax.swing.*;
 import java.io.*;
 import java.util.Scanner;
@@ -18,6 +17,9 @@ public class Recursion {
             }
             if(palindromeIterative(word)){
                 System.out.print(word+ " is a palindrome through Iteration" + "\n");
+            }
+            else{
+                System.out.println(word + " is not a palindrome.");
             }
         }
     }
