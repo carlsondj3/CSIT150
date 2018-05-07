@@ -52,6 +52,9 @@ public class Faculty extends Employee{
         }
     }
 
+    /**
+     * @return prints in a nice string format
+     */
     public String toString(){
         String toString = getName() + " teaches";
         for(int i =0; i< courses.length; i++){
